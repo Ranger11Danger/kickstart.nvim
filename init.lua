@@ -141,16 +141,6 @@ require('lazy').setup({
       end,
     },
   },
-
-  {
-    -- Theme inspired by Atom
-    'navarasu/onedark.nvim',
-    priority = 1000,
-    config = function()
-      vim.cmd.colorscheme 'onedark'
-    end,
-  },
-
   {
     -- Set lualine as statusline
     'nvim-lualine/lualine.nvim',
@@ -221,6 +211,7 @@ require('lazy').setup({
   --    For additional information see: https://github.com/folke/lazy.nvim#-structuring-your-plugins
 { import = 'custom.plugins' },
 }, {})
+vim.cmd.colorscheme("catppuccin-mocha")
 
 -- [[ Setting options ]]
 -- See `:help vim.o`

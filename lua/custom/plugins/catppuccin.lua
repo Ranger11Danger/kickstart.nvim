@@ -1,10 +1,9 @@
 return
 {
   "catppuccin/nvim",
-  lazy = true,
+  lazy = false,
   name = "catppuccin",
   opts = {
-    flavour = "latte",
     integrations = {
       alpha = true,
       cmp = true,
@@ -35,5 +34,4 @@ return
       which_key = true,
     },
   },
-vim.cmd.colorscheme("catppuccin-mocha")
 }
