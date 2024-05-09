@@ -10,7 +10,6 @@ return
       flash = true,
       gitsigns = true,
       illuminate = true,
-      indent_blankline = { enabled = true },
       lsp_trouble = true,
       mason = true,
       mini = true,
